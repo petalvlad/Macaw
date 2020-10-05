@@ -1,5 +1,5 @@
 import Foundation
-
+@objc(MCNode)
 open class Node: Drawable {
 
     public let placeVar: AnimatableVariable<Transform>
